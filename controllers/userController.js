@@ -13,7 +13,7 @@ const DATA_FILE = path.join(__dirname, '../data/users.json');
 
  * @param {Object} user - User object to validate
  * @param {boolean} isUpdate - Whether this is an update operation
- * @returns {Object} - { valid: boolean, errors: array }
+ * @returns {Object} - { valid: boolean,  : array }
  */
 const validateUser = (user, isUpdate = false) => {
   const errors = [];
