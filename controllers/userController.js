@@ -10,7 +10,7 @@ const path = require('path');
 const DATA_FILE = path.join(__dirname, '../data/users.json');
 
 /**
- * Validate user data
+
  * @param {Object} user - User object to validate
  * @param {boolean} isUpdate - Whether this is an update operation
  * @returns {Object} - { valid: boolean, errors: array }
